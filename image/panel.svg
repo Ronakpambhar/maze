@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="145px" viewBox="0 0 142 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Private 59 (86100) - https://sketch.com -->
+    <title>Panel v2</title>
+    <desc>Created with Sketch Private.</desc>
+    <defs>
+        <ellipse id="path-1" cx="56.3462539" cy="68.2597356" rx="8.24142412" ry="8.25"></ellipse>
+        <filter x="-66.7%" y="-54.5%" width="288.1%" height="281.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="5" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.429149683   0 0 0 0 0.302403289   0 0 0 0 0.0447548821  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.653920174   0 0 0 0 0.519819021   0 0 0 0 0.261784405  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <ellipse id="path-3" cx="78.1612383" cy="88.2883472" rx="8.24142412" ry="8.25"></ellipse>
+        <filter x="-66.7%" y="-54.5%" width="288.1%" height="281.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="5" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.429149683   0 0 0 0 0.302403289   0 0 0 0 0.0447548821  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.653920174   0 0 0 0 0.519819021   0 0 0 0 0.261784405  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <ellipse id="path-5" cx="73.2610302" cy="48.5853846" rx="8.24142412" ry="8.25"></ellipse>
+        <filter x="-66.7%" y="-54.5%" width="288.1%" height="281.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="5" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.429149683   0 0 0 0 0.302403289   0 0 0 0 0.0447548821  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.653920174   0 0 0 0 0.519819021   0 0 0 0 0.261784405  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Feature-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-1518.000000, -942.000000)">
+            <g id="Panel-v2" transform="translate(1518.250000, 941.500000)">
+                <g id="Group-5" transform="translate(0.000000, 0.500000)">
+                    <path d="M13.2704109,9 L127.362198,9 C132.74155,9 137.157032,13.255554 137.355397,18.6312473 L141.617389,134.131247 C141.821046,139.650339 137.512034,144.289542 131.992943,144.493199 C131.870078,144.497733 131.747139,144.5 131.62419,144.5 L10.2637083,144.5 C4.74086084,144.5 0.263708338,140.022847 0.263708338,134.5 C0.263708338,134.413245 0.264837307,134.326493 0.267094957,134.239768 L3.27379756,18.7397676 C3.41488206,13.3201229 7.84893023,9 13.2704109,9 Z" id="Rectangle" fill="#FFD693"></path>
+                    <path d="M13.2704109,2.00973558 C8.66215234,2.00973558 4.8932114,5.68184007 4.77328957,10.288538 L1.76658696,125.788538 C1.76466796,125.862255 1.76370834,125.935994 1.76370834,126.009736 C1.76370834,130.704156 5.56928796,134.509736 10.2637083,134.509736 L131.62419,134.509736 C131.728697,134.509736 131.833195,134.507808 131.93763,134.503955 C136.628858,134.330846 140.291517,130.387523 140.118409,125.696296 L135.856417,10.1962958 C135.687806,5.62695644 131.934647,2.00973558 127.362198,2.00973558 L13.2704109,2.00973558 Z" id="Rectangle" stroke="#FEFAF3" stroke-width="3" fill="#FFF7EA"></path>
+                    <g id="Group-8" opacity="0.5" transform="translate(35.571080, 46.338767)" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="63.7448411" y1="8.9640999" x2="63.7448411" y2="-2.47086368" id="Path" stroke="#C4870B" stroke-width="4" transform="translate(63.744841, 3.246618) scale(-1, 1) rotate(90.000000) translate(-63.744841, -3.246618) "></line>
+                        <line x1="16.0991595" y1="16.5874089" x2="16.0991595" y2="-12" id="Path" stroke="#C4870B" stroke-width="4" transform="translate(16.099160, 3.246618) scale(-1, 1) rotate(90.000000) translate(-16.099160, -3.246618) "></line>
+                        <line x1="57.2630473" y1="33.4174089" x2="57.2035521" y2="6.73582726" id="Path" stroke="#C4870B" stroke-width="4" transform="translate(55.359201, 20.076618) scale(-1, 1) rotate(90.000000) translate(-55.359201, -20.076618) "></line>
+                        <line x1="8.65204327" y1="25.7940999" x2="8.71153846" y2="14.3591363" id="Path" stroke="#C4870B" stroke-width="4" transform="translate(6.807692, 20.076618) scale(-1, 1) rotate(90.000000) translate(-6.807692, -20.076618) "></line>
+                        <line x1="59.9331866" y1="50.8526775" x2="59.9331866" y2="31.7944049" id="Path" stroke="#C4870B" stroke-width="4" transform="translate(59.933187, 41.323541) scale(-1, 1) rotate(90.000000) translate(-59.933187, -41.323541) "></line>
+                        <line x1="12.287505" y1="50.8526775" x2="12.287505" y2="29.8885776" id="Path" stroke="#C4870B" stroke-width="4" transform="translate(12.287505, 41.323541) scale(-1, 1) rotate(90.000000) translate(-12.287505, -41.323541) "></line>
+                        <line x1="57.2630473" y1="32.4174089" x2="57.2035521" y2="5.73582726" id="Path" stroke="#7A550A" stroke-width="2" transform="translate(55.359201, 19.076618) scale(-1, 1) rotate(90.000000) translate(-55.359201, -19.076618) "></line>
+                        <line x1="8.65204327" y1="24.7940999" x2="8.71153846" y2="13.3591363" id="Path" stroke="#7A550A" stroke-width="2" transform="translate(6.807692, 19.076618) scale(-1, 1) rotate(90.000000) translate(-6.807692, -19.076618) "></line>
+                        <line x1="63.7448411" y1="7.9640999" x2="63.7448411" y2="-3.47086368" id="Path" stroke="#7A550A" stroke-width="2" transform="translate(63.744841, 2.246618) scale(-1, 1) rotate(90.000000) translate(-63.744841, -2.246618) "></line>
+                        <line x1="16.0991595" y1="15.5874089" x2="16.0991595" y2="-13" id="Path" stroke="#7A550A" stroke-width="2" transform="translate(16.099160, 2.246618) scale(-1, 1) rotate(90.000000) translate(-16.099160, -2.246618) "></line>
+                        <line x1="59.9331866" y1="49.8526775" x2="59.9331866" y2="30.7944049" id="Path" stroke="#7A550A" stroke-width="2" transform="translate(59.933187, 40.323541) scale(-1, 1) rotate(90.000000) translate(-59.933187, -40.323541) "></line>
+                        <line x1="12.287505" y1="49.8526775" x2="12.287505" y2="28.8885776" id="Path" stroke="#7A550A" stroke-width="2" transform="translate(12.287505, 40.323541) scale(-1, 1) rotate(90.000000) translate(-12.287505, -40.323541) "></line>
+                    </g>
+                    <g id="Oval" transform="translate(56.346254, 68.259736) scale(-1, 1) rotate(90.000000) translate(-56.346254, -68.259736) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#EEC476" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Oval" transform="translate(78.161238, 88.288347) scale(-1, 1) rotate(90.000000) translate(-78.161238, -88.288347) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#EEC476" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Oval" transform="translate(73.261030, 48.585385) scale(-1, 1) rotate(90.000000) translate(-73.261030, -48.585385) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#EEC476" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <ellipse id="Oval" stroke="#FEFCF9" stroke-width="2" fill="#F6EEDE" stroke-linecap="round" stroke-linejoin="round" transform="translate(56.346254, 66.259736) scale(-1, 1) rotate(90.000000) translate(-56.346254, -66.259736) " cx="56.3462539" cy="66.2597356" rx="7.61538462" ry="7.62330905"></ellipse>
+                    <ellipse id="Oval" stroke="#FEFCF9" stroke-width="2" fill="#F6EEDE" stroke-linecap="round" stroke-linejoin="round" transform="translate(78.351821, 85.993582) scale(-1, 1) rotate(90.000000) translate(-78.351821, -85.993582) " cx="78.351821" cy="85.9935817" rx="7.61538462" ry="7.62330905"></ellipse>
+                    <ellipse id="Oval" stroke="#FEFCF9" stroke-width="2" fill="#F6EEDE" stroke-linecap="round" stroke-linejoin="round" transform="translate(73.261030, 46.123309) scale(-1, 1) rotate(90.000000) translate(-73.261030, -46.123309) " cx="73.2610302" cy="46.1233091" rx="7.61538462" ry="7.62330905"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

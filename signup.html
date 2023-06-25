@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze - Signup</title>
+    <link rel="shortcut icon" href="image/favicon-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+    <div class="container-fluid pad">
+        <!-- <section class="register "> -->
+            <!--log in section-->
+            <div class="register-logIn">
+                <div class="brand">
+                    <a href="index.html" class="logo">
+                        <img src="image/logo.png" class="img-fluid" alt="logo">
+                    </a>
+                </div>
+                <h2 class="register-logIn__title">Hello! <br>
+                    Create your free account</h2>
+                <form action="#" class="form">
+                    <input type="email" class="form__email" placeholder="email" required>
+                    <input type="password" class="form__password" placeholder="password" required>
+                    <input type="checkbox" class="form__rememberMe" name="Remember me" id="remember">
+                    <label for="remember" class="form__rememberMe-labelsignup">I want to receive updates about Maze products and services</label>
+                    <input type="submit" class="form__submit upper" value="Create my account">
+                </form>
+               
+                <div class="register-social">
+                    <p>Already have an account? <a  onclick="document.getElementById('id01').style.display='block'" class="text-b from__forgot ">Login</a></p>
+                            <div id="id01" class="modal">
+                              
+                              <form class="modal-content animate" action="/action_page.php" method="post">
+                                <div class="imgcontainer">
+                                    <i class="fas fa-user-tie"></i>
+                                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  
+                                </div>
+                            
+                                <div class="container">
+                                  <label for="uname"><b class="usname">Username</b></label>
+                                  <input type="text" class="loginp"  placeholder="Enter Username" name="uname" required>
+                            
+                                  <label for="psw"><b class="usname">Password</b></label>
+                                  <input type="password"  class="loginp" placeholder="Enter Password" name="psw" required>
+                                    
+                                  <button class="lbutton" type="submit">Login</button>
+                                  <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                  </label>
+                                </div>
+                            
+                                <div class="container" style="background-color:#f1f1f1">
+                                  <!-- <button type="button"  onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> -->
+                                  <!-- <p class="psw">Forgot <a href="#">password?</a></p> -->
+                                  <a href="index.html" class="from__forgot">Forgot password?</a>
+                                  <ul class="register-social__list">
+                                    <li class="register-social__item"><a href="https://www.google.com/" class="register-social__link"><i class="fab fa-google"></i></a></li>
+                                    <li class="register-social__item"><a href="https://twitter.com/" class="register-social__link"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="register-social__item"><a href="https://www.facebook.com/" class="register-social__link"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="register-social__item"><a href="https://github.com/" class="register-social__link"><i class="fab fa-github-alt"></i></a></li>
+                                </ul>
+                                <p class="">Don't have an account? <a class="from__forgot text-b" href="signup.html">Sign Up</a></p>
+                                </div>
+                              </form>
+                            </div>
+                    <h3 class="register-social__title">
+                        Or Connect With
+                    </h3>
+                    <ul class="register-social__list">
+                        <li class="register-social__item"><a href="https://www.google.com/" class="register-social__link"><i class="fab fa-google"></i></a></li>
+                        <li class="register-social__item"><a href="https://twitter.com/" class="register-social__link"><i class="fab fa-twitter"></i></a></li>
+                        <li class="register-social__item"><a href="https://www.facebook.com/" class="register-social__link"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="register-social__item"><a href="https://github.com/" class="register-social__link"><i class="fab fa-github-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--singup section-->
+            <div class="register-singUp dnone">
+                <div class="content">
+                    <h3 class="register-singUp__title">
+                        Join over 20,000 companies validating <br>design decisions with Maze
+                    </h3>
+                </div>
+                <div class="text">
+                <div class="flex">
+                    <div class="col-sm-2">
+                        <img src="image/ibm.svg" class="normal-2 img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/revolut.svg" class="normal-2 img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/ring.svg" class="normal-2 img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/microsoft.svg" class="normal-2 img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/downaccenture.svg" class="normal-2 img-fluid">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>  
+<script src="js/jquery.min.js"></script>
+<script src="js/all.min.js"></script>
+<script>    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }</script>
+</body>
+</html>

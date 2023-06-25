@@ -1,0 +1,454 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maze</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+    <link rel="shortcut icon" href="image/favicon-32x32.png" sizes="32x32" type="image/x-icon">
+    <link rel="apple-touch-icon"href="image/apple-touch-icon-114x114.png" sizes="114x114"  type="image/x-icon">
+    <link rel="apple-touch-icon"href="image/apple-touch-icon-114x114.png" sizes="114x114"  type="image/x-icon">
+    <meta name="theme-color" content="##225cff">
+</head>
+<body>
+    
+<!-- HEADER [START] -->
+<section>
+    <header class="container-fluid">
+        <div class="row ">  
+            <div class="header">
+                <div class="brand">
+                    <a href="index.html" class="logo">
+                    <img src="image/logo.png" class="img-fluid" alt="logo">
+                </a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                  <li class="hrm" ><a href="#" class="colw" aria-label="Close Navigation"><i class="fa fa-times"></i></a></li>
+                        <li class="hrm" ><a href="features.html" class="navig">Features</a></li>
+                        <li class="hrm" ><a href="enterprise.html" class="navig">Enterprise</a</li>
+                        <li class="hrm" ><a href="pricing.html" class="navig">Pricing</a></li>
+                        <li class="hrm" ><a href="about.html" class="navig">About us</a></li>
+                        <li class="hrm" > <a href="resource.html" class="navig">Resource</a></li>
+                        <li class="hrm"><a onclick="document.getElementById('id01').style.display='block'" class="navig">Login</a></li>
+                        <div id="id01" class="modal">
+                          <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                                <i class="fas fa-user-tie"></i>
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> 
+                            </div>
+                            <div class="container">
+                              <label for="uname"><b class="usname">Username</b></label>
+                              <input type="text" class="loginp"  placeholder="Enter Username" name="uname" required>
+                        
+                              <label for="psw"><b class="usname">Password</b></label>
+                              <input type="password"  class="loginp" placeholder="Enter Password" name="psw" required>
+                                
+                              <button class="lbutton" type="submit">Login</button>
+                              <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                            </div>
+                            <div class="container" style="background-color:#f1f1f1">
+                            <a href="index.html" class="from__forgot">Forgot password?</a>
+                            <ul class="register-social__list">
+                                <li class="register-social__item hrm"><a href="https://www.google.com/" class="register-social__link"><i class="fab fa-google"></i></a></li>
+                                <li class="register-social__item hrm"><a href="https://twitter.com/" class="register-social__link"><i class="fab fa-twitter"></i></a></li>
+                                <li class="register-social__item hrm"><a href="https://www.facebook.com/" class="register-social__link"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="register-social__item hrm"><a href="https://github.com/" class="register-social__link"><i class="fab fa-github-alt"></i></a></li>
+                            </ul>
+                            <p class="">Don't have an account? <a class="from__forgot text-b" href="signup.html">Sign Up</a></p>
+                            </div>
+                          </form>
+                        </div>
+                        <a href="signup.html" class="navig button abtn">Sign up</a>
+                    </ul>
+                </nav>
+                <a href="#nav" class="nav-btn" aria-label="Open Navigation"><i class="fa fa-bars"></i></a>
+            </div>              
+        </div>
+    </header>
+</section>
+<!-- HEADER [END] -->
+<!-- BANNER [START] -->
+<section>
+    <div class="banner">
+        <div class="container">
+            <div class="col-xl-7 col-lg-7 col-md-9 col-sm-12">
+                <h1 class="texth">Design that works.</h1>
+                <p class="textp">Maze is a user testing platform that turns your prototype into actionable insights from real users, bringing confidence to the design process.</p>
+            </div>
+
+            <div class="col-xl-7 col-lg-7 col-md-9 col-sm-12">
+                <form class="sform">
+                    <div class="box">
+                        <input type="text" class="hinput"placeholder="Past the link to your prototype">
+                        <button type="submit" value="submit" class="btn">submit</button>
+                    </div>
+                </form>
+                <div class="boxl  flex">
+                    <a class="link" href="#">Where to find this link?</a>
+                    <a href="#"><img class="figma" src="image/figma.png"></a>
+                    <a href="#"><img class="in" src="image/in.png"></a>
+                    <a href="#"><img class="in" src="image/dimond.png"></a>
+                    <a href="#"><img class="in" src="image/mm.png"></a>
+                </div>
+            </div>
+
+            <div class="text">
+                <h2>Used by designers at the world's best companies</h2>
+                <div class="flex">
+                    <div class="col-sm-2">
+                        <img src="image/uber.png" class="normal img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/ibm.png" class="normal img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/microsoft.png" class="normal img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/amazon.png" class="normal img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/airbnb.png" class="normal img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/revolut.png" class="normal img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BANNER [END] -->
+<!-- TEAM[START] -->
+<div class="container pad">
+    <div class="d-xl-flex post">
+        <div class="col-xl-5 mdesigner col-lg-12">
+            <h1 class="tem">Designers,</h1>
+            <p class="temp">Settle design debates with data.</p>
+            <p class="designer">Maze makes it easy to gather user insights by integrating into your existent design and prototyping workflow.
+                 Creating user tests is easy as pie. Test InVision, Marvel or Sketch prototypes,
+                  and see how your design performs with actionable metrics.</p>
+            <div class="teambox">
+                <div class="profile">
+                    <div class="dimg dcrodz">
+                        <img class="dimg" src="image/designer.jpg" alt="">
+                    </div>
+                        <p class="text-white temname">James Storer</p>
+                        <p class="text-white">Head of Design at Freetrade</p>
+                </div>
+                <p class="clientdetail">If we were to look at the amount of reward you get from every type of testing, you could definitely say Maze it’s just minimal effort for such high rewards.</p>
+            </div>
+        </div>
+        <div class="mdesigner2 col-xl-7 col-lg-12">
+            <video class="video" autoplay controls="false"><source src="video/designer.mp4" type="video/mp4"></video>
+        </div>
+    </div>
+
+    <div class="d-xl-flex">
+        <div class="col-xl-7 col-lg-12">
+            <video class="video" autoplay controls="false"><source src="video/pm.mp4"type="video/mp4"></video>
+        </div>
+        <div class="col-xl-5 col-lg-12  ">
+            <h1 class="tem">Product Managers,</h1>
+            <p class="temp">Say goodbye to guesswork</p>
+            <p class="designer">Building digital products is never easy. Maze helps you move ideas forward by giving you the insights you need, right when you need 
+                them. Increase developer efficiency by ensuring your design works from the get-go. Maze makes it easy to iterate with fast and simple user testing.</p>
+            <div class="teambox">
+                <div class="profile">
+                    <div class="d2img dcrodz">
+                        <img class="d2img " src="image/manager.jpg" alt="">
+                    </div>
+                        <p class="text-white temname">Antoine Fabre</p>
+                        <p class="text-white">CPO at Creme de la Creme</p>
+                </div>
+                <p class="clientdetail">The ability to test more, without additional strains, and be confident in what we’re building are the main values that Maze provides for us.</p>
+            </div>
+        </div>
+    </div>        
+</div>
+<div class="about pad">
+    <div class="container">
+        <h1 class="tem">For companies of all sizes</h1>
+        <div class="row d-lg-flex">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xl-4">
+                <div class="startup">
+                    <img class="img-fluid startupimg" src="image/startups.png" alt="">
+                    <div class="aboutdetail">
+                        <h1 class="aot">Startups</h1>
+                        <p class="texta">As a small team, time is your biggest asset.</p>
+                        <p class="textap">With Maze, you save time and money by ensuring the design of your product works before going into development.</p>
+                        <div class="startuplink">
+                            <a href="#" class="link2">Build faster with Maze</a>
+                            <div class="blog flex">
+                                <img src="image/build.jpg" class="normal2" alt="">
+                                <div class="btext">
+                                 <p class="btext1">From the blog</p>
+                                 <p class="btext2">How Maze enabled large-scale testing at Freetrade</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xl-4">
+                <div class="startup">
+                    <img class="img-fluid agenciesimg" src="image/agencies.png" alt="">
+                    <div class="agencydetail">
+                        <h1 class="aot">Digital Agencies</h1>
+                        <p class="texta">Client satisfaction is most valuable to you.</p>
+                        <p class="textap">Get the data you need to deliver the best experience, always. Maze helps you build products your clients will love.</p>
+                        <div class="agencilink">
+                            <a href="#" class="link2">Deliver client satisfaction</a>
+                            <div class="blog flex">
+                                <img src="image/deliver.jpg" class="normal2" alt="">
+                                <div class="btext">
+                                 <p class="btext1">From the blog</p>
+                                 <p class="btext2">How Soda Studio optimized a conversion funnel by 35% with Maze</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                <div class="startup">
+                    <img class="img-fluid entersimg" src="image/enterprises.png" alt="">
+                    <div class="entersdetail">
+                        <h1 class="aot">Enterprises</h1>
+                        <p class="texta">Research and data gets you ahead of the game.</p>
+                        <p class="textap">Get all teams, departments and stakeholders aligned on design with powerful insights.</p>
+                        <div class="enterlink">
+                            <a href="#" class="link2"> Level up your design practice</a>
+                            <div class="blog flex">
+                                <img src="image/lavelup.jpg" class="normal2" alt="">
+                                <div class="btext">
+                                 <p class="btext1">From the blog</p>
+                                 <p class="btext2">From first to final design mockup in a day—How Canopy used Maze to iterate on design at light speed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<!-- ABOUT [END] -->
+<!-- WHAT WE DO [START] -->
+<div class="container pad">
+    <div class="">
+        <h1 class="whath">What can you do with Maze?</h1>
+        <p class="whatp">From a first design mockup to a full-fledged product, Maze has your user testing needs covered.</p>
+        <div class="main d-xl-flex d-lg-flex">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/build.png" class="dnormal" alt="build">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Build a new product</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/split.png" class="dnormal" alt="split">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Split testing multiple designs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/interaction.png" class="dnormal" alt="interaction">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Quick validation of microinteractions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/feature.png" class="dnormal" alt="feature">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Build a new feature</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/guerilla.png" class="dnormal" alt="guerilla">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Quick validation of microinteractions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/flow.png" class="dnormal" alt="flow">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Low-fidelity prototype testing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/validate.png" class="dnormal" alt="validate">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Validate design internally</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="boxmain flex">
+                        <div class="dbox">
+                            <img src="image/compair.png" class="dnormal" alt="compair">
+                        </div>
+                        <div class="dtext">
+                            <p class="dtext2">Compare copy performance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+<!-- WHAT WE DO [END] -->
+<!-- NOTESTERS [START] -->
+<div class="pad">
+    <div class="vtmain">
+        <div class="container">
+                <div class="row vtextmain">
+                    <div class="col-xl-7 col-lg-8 col-md-12 xol-sm-12">
+                        <h1 class="vthead">No testers? No problem!</h1>
+                        <p class="vtext">Finding the right testers can be hard: get access to our panel of.<span class="vtext2">70,000+ testers starting at $2.4/session.</span>And you can always test with your own participants, free forever..</p>
+                        <div class="btnn">
+                            <a href="#" class="btn2">HIRE TESTER NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="vmain">
+        <video class="video " autoplay controls="false"><source class="img-fluid" src="video/no-testers.mp4" type="video/mp4"></video>
+    </div>
+</div>
+<!-- NOTESTERS [END] -->
+<!-- CONTACT-->
+<div class="pad con2">
+    <div class="container ">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="text">
+            <h1 class="conhead">Get your design right, right now.</h1>
+            <p class="textp">Start using Maze for free and improve your design today.</p>
+            </div>
+            <form class="sform">
+                <div class="box">
+                    <input type="text" class="hinput"placeholder="Past the link to your prototype">
+                    <button type="submit" value="submit" class="btn">submit</button>
+                </div>
+            </form>
+
+            <div class="boxl  flex">
+                <a class="link" href="#">Where to find this link?</a>
+                <a href="#"><img class="figma" src="image/figma.png"></a>
+                <a href="#"><img class="in" src="image/in.png"></a>
+                <a href="#"><img class="in" src="image/dimond.png"></a>
+                <a href="#"><img class="in" src="image/mm.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CONTACT -->
+<!-- FOOTER -->
+<footer class="fmain ped">
+    <div class="container">
+        <div class="row flex ">
+            <div class="col-xl-3 col-lg-3 col-md-2 col-sm-12 spacf">
+                <div class="brandn">
+                    <a href="index.html" class="logo">
+                        <img src="image/logo.png" class="img-fluid" alt="logo">
+                    </a>
+                </div>
+                <p class="dtext2">Design that works</p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 foot"> 
+                <a href="features.html" class="navigf">Features</a>
+                <a href="enterprise.html" class="navigf">Enterprise</a>
+                <a href="pricing.html" class="navigf">Pricing</a>
+                <a onclick="document.getElementById('id01').style.display='block'"class="navigf">Login</a>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  foot">
+                <a href="resource.html" class="navigf">Blog</a>
+                <a href="about.html" class="navigf">About US</a>
+                <a href="contact.html" class="navigf">Contact US</a>
+            </div>
+            <div class="col-xl-3  col-lg-3 col-md-4 col-sm-12 col-12 foot">
+               <p class="ftext">Keas 69 Str.
+                15234, Chalandri
+                Athens,
+                Greece</p>
+                <a href="tel:+30-2106019311" class="info">+30-2106019311</a>
+                <a href="mailto:duda.309@dudaagency.com" class="info">info@dummy.com</a>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 copyright">
+                <p>Copyright © 2019 maze</p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="socialmed">
+                    <a class="fon-1 sfb" href="https://www.facebook.com/"> <i class="fab fa-facebook-f m-2"></i></a>
+                    <a class="fon-1 sin " href="https://in.linkedin.com/"><i class="fab fa-linkedin-in m-2"></i></a>
+                    <a class="fon-1 stw " href="https://twitter.com/"><i class="fab fa-twitter m-2"></i></a>
+                    <a class="fon-1 sis" href="https://www.instagram.com/"><i class="fab fa-instagram m-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>  
+</footer>
+<!-- FOOTER -->
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/all.min.js"></script>
+
+
+<script>
+      var vids = $("video"); 
+    $.each(vids, function(){
+    this.controls = false; 
+    });
+
+    var modal = document.getElementById('id01');
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+</body>
+</html>
+
+
+<!--  -->

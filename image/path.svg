@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="42px" viewBox="0 0 85 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Private 58 (84659) - https://sketch.com -->
+    <title>multiple_paths_icon</title>
+    <desc>Created with Sketch Private.</desc>
+    <g id="Feature-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FEATURE-PAGE---step-1" transform="translate(-745.000000, -2452.000000)">
+            <g id="multiple_paths_icon" transform="translate(746.000000, 2453.000000)">
+                <g id="UI-Elements/-Icons/-offpath" transform="translate(0.000000, 7.070707)" stroke="#364962" stroke-linecap="round" stroke-width="1.5">
+                    <g id="offpath">
+                        <polyline id="Path-2" points="-1.06598592e-14 4.24242424 11.21439 4.24242424 22.6228656 24.2498224 31.694234 24.2498224"></polyline>
+                        <path d="M16.969697,4.24242424 L31.1111111,4.24242424" id="Path-2-Copy-2"></path>
+                        <polyline id="Path-3" stroke-linejoin="round" points="34.955267 0 38.8456637 4.07764165 34.955267 8.07550604"></polyline>
+                        <polyline id="Path-3-Copy" stroke-linejoin="round" points="34.955267 20.2020202 38.8456637 24.2796619 34.955267 28.2775262"></polyline>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="#1D5CFF" x="48.0808081" y="2.82828283" width="14.1414141" height="14.1414141" rx="3.18181818"></rect>
+                <rect id="Rectangle" stroke="#364962" stroke-width="1.5" x="45.2525253" y="0" width="14.1414141" height="14.1414141" rx="3.18181818"></rect>
+                <rect id="Rectangle" stroke="#364962" stroke-width="1.5" fill="#FFFFFF" x="45.2525253" y="25.4545455" width="14.1414141" height="14.1414141" rx="3.18181818"></rect>
+                <rect id="Rectangle" stroke="#364962" stroke-width="1.5" fill="#FFFFFF" x="68.4444444" y="-1.77635684e-15" width="14.1414141" height="14.1414141" rx="3.18181818"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
